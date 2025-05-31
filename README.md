@@ -1,14 +1,16 @@
 # RUNA - 2025
 
-Bienvenido al proyecto del sitio web del proyecto RUNA 2025. En este documento se irán añadiendo las tareas a realizar, así como los avances o errores del mismo.
+Welcome to the website of the **RUNA 2025** project. In this document, the tasks to be performed will be added, as well as the progress and errors of the same.
 
-### Tareas
+## Tasks
 
-La lista de tareas se basan en el [sitio oficial](https://israelcueva.github.io/colegio-docs/#/3-secundaria/proyecto) del proyecto.
+The task list is based on the [oficial site](https://israelcueva.github.io/colegio-docs/#/3-secundaria/proyecto).
 
-- [ ] Agregar Boostrap en modo local.
-- [ ] Agregar Boostrap Icons en modo local.
-- [x] Nivel 1: Completado.
-- [ ] Nivel 2: En progreso
+- [ ] Add Bootstrap on local mode.
+- [ ] Add Bootstrap Icons on local mode.
+- [x] Level 1: Complete.
+- [ ] Nivel 2: In progress.
 
+## Equipos
 
+- Project Manager: Pepito
