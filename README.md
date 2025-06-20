@@ -38,7 +38,7 @@ The task list is based on the [oficial site](https://israelcueva.github.io/coleg
 
 - [ ] Create the menubar section on `index.html`.
 
-### link - Marcañaupa
+### Links - Marcañaupa
 
 - [ ] Complete the website project structure.
 
