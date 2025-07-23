@@ -1,0 +1,82 @@
+    .site-wrapper {
+        max-width: 12000px;
+        margin: 20px auto;
+        padding: 10px;
+        background-color:#ffffff ;
+        border: none;
+    }
+
+* {
+                padding: 0px;
+                margin: 0px;
+            }
+
+            #header {
+                display: flex;
+                align-items: center;
+                background-color: #fff;
+                padding: 0 20px;
+                width: 100%;
+                border-radius: 15px;
+                overflow: visible;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+            }
+
+            
+            .logo svg {
+                height: 100px;
+                height: auto;
+                fill: #f6a94b;
+            }
+            
+            nav{
+                margin-left: auto;
+            }
+            
+            .nav {
+                display: flex;
+                list-style: none;
+            }
+            .nav li{
+                position: relative;
+            }
+
+            .nav li a {
+                background-color: white;
+                color: black;
+                text-decoration: none;
+                padding: 30px 35px;
+                display: block;
+                border-radius: 8px;
+                transition: background-color 0.2s ease, color 0.2s ease;
+            }
+
+
+            .nav li a:hover {
+                background-color: rgb(246, 169, 75);
+                color: #ffffff;
+                border-radius: 8px;
+
+            }
+
+
+            .nav li ul {
+                display: none;
+                position: absolute;
+                top: calc(100% +5px);
+                left: 0;
+                list-style: none;
+                background-color: rgb(255, 255, 255);
+                padding: 0;
+                min-width: 150px;
+                z-index: 1000;
+            }
+            
+            .nav li ul li a {
+                padding: 15px 20px;
+            }
+            
+            .nav li:hover > ul {
+                display: block;
+            }
