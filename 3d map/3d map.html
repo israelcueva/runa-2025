@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Visor con Model-Viewer</title>
+  <style>
+    body {
+      margin: 0;
+      background-color: black; /* Fondo negro */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    model-viewer {
+      width: 100%;
+      height: 100%;
+      background-color: black;
+    }
+  </style>
+  <!-- Cargar librería model-viewer -->
+  <script type="module" src="https://cdn.jsdelivr.net/npm/@google/model-viewer/dist/model-viewer.min.js"></script>
+</head>
+<body>
+  <model-viewer 
+    src="map.glb"                
+    alt="Modelo 3D"
+    camera-controls             
+    disable-pan                 
+    auto-rotate                 
+    background-color="black"    
+    min-camera-orbit="auto auto 2m"   
+    max-camera-orbit="auto 90deg 10m" 
+    exposure="1"
+  >
+  </model-viewer>
+</body>
+</html>
