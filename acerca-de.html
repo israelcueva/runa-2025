@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto RUNA</title>
+    <link rel="stylesheet" href="res/css/styles.css">
+</head>
+
+<body>
+    <!-- Header with Navigation -->
+    <header class="header">
+        <div class="nav-container container">
+            <!-- Logo -->
+            <a href="#" class="logo">
+                <img src="res/images/brand/logo_primarycolor.svg" alt="RUNA" class="logo-icon">
+                <div>
+                    <div class="logo-text">RUNA</div>
+                    <div class="logo-subtitle">PROYECTO</div>
+                </div>
+            </a>
+
+            <!-- Navigation Menu (se mueve entre desktop y mobile) -->
+            <nav>
+                <ul class="nav-menu" id="navMenu">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link btn-inicio">INICIO</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#acerca-de-completo" class="nav-link" id="aboutToggle">
+                            ACERCA DE
+                            <span class="dropdown-arrow"></span>
+                        </a>
+                        <ul class="dropdown-menu" id="aboutDropdownMenu">
+                            <li class="dropdown-item">
+                                <a href="#quienes-somos-sub" class="dropdown-link">Quiénes Somos</a>
+                            </li>
+                            <li class="dropdown-item">
+                                <a href="#nuestra-historia-sub" class="dropdown-link">Nuestra Historia</a>
+                            </li>
+                            <li class="dropdown-item">
+                                <a href="#nuestra-vision-sub" class="dropdown-link">Nuestra Visión</a>
+                            </li>
+                            <li class="dropdown-item">
+                                <a href="#nuestra-mision-sub" class="dropdown-link">Nuestra Misión</a>
+                            </li>
+                            <li class="dropdown-item">
+                                <a href="#equipo-sub" class="dropdown-link">Equipo</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link" id="projectsToggle">
+                            PROYECTOS
+                            <span class="dropdown-arrow"></span>
+                        </a>
+                        <!-- Dropdown Menu -->
+                        <ul class="dropdown-menu" id="dropdownMenu">
+                            <li class="dropdown-item">
+                                <a href="#" class="dropdown-link">El Konista</a>
+                            </li>
+                            <li class="dropdown-item">
+                                <a href="#" class="dropdown-link">Animatoks</a>
+                            </li>
+                            <li class="dropdown-item">
+                                <a href="#" class="dropdown-link">La web de Runa</a>
+                            </li>
+                            <li class="dropdown-item">
+                                <a href="#" class="dropdown-link">Runa: Aventuras</a>
+                            </li>
+                            <li class="dropdown-item">
+                                <a href="#" class="dropdown-link">Runa: Documentales</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">CONTACTO</a>
+                    </li>
+                </ul>
+            </nav>
+
+
+            <!-- Mobile Menu Button -->
+            <button class="mobile-menu-btn" id="mobileMenuBtn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Off-Canvas Menu Overlay -->
+    <div class="menu-overlay" id="menuOverlay"></div>
+
+    <!-- Off-Canvas Container -->
+    <div class="off-canvas-container" id="offCanvasContainer">
+        <div class="off-canvas-header">
+            <div class="logo">
+                <div class="logo-icon" style="width: 30px; height: 30px;"></div>
+                <div>
+                    <div class="logo-text" style="font-size: 16px;">RUNA</div>
+                    <div class="logo-subtitle">PROYECTO</div>
+                </div>
+            </div>
+            <button class="close-btn" id="closeBtn">&times;</button>
+        </div>
+
+        <!-- El menú se moverá aquí en mobile -->
+        <div id="mobileNavContainer"></div>
+    </div>
+
+    <div class="main-content">
+
+        <section id="page-about-us">
+            <div class="container">
+            
+                <h1 style="color: aliceblue;" class="title">Sobre nosotros</h1>
+
+            </div>
+        </section>
+
+        <section id="page-our-history">
+            <div style="text-align: center;"     class="container">
+                <h2 class="heading">Nuestra historia</h2>
+                <p>En un futuro no muy lejano, un grupo de jóvenes soñadores decide embarcarse en un ambicioso proyecto: crear un espejo que no solo refleje imágenes, sino también emociones. A través de la tecnología y la conexión humana, buscan capturar la esencia de lo que significa ser humano. Sin embargo, a medida que se adentran en su creación, descubren que los espejos revelan verdades ocultas, temores y anhelos que cada uno de ellos había mantenido en secreto.
+</p>
+<img src="https://www.obsbusiness.school/sites/obsbusiness.school/files/images/trabajo-en-equipo.jpg" class="imagen">
+
+            </div>
+
+        </section>
+
+        <section id="page-our-vision">
+            <div style="text-align: center;"   class="container">
+                <h2 class="heading">Nuestra visión</h2>
+                <p>En un pequeño pueblo, un grupo de estudiantes apasionados por la tecnología decidió unir fuerzas para desarrollar un proyecto de cómputo que transformara la educación local. Inspirados por sus propias experiencias, se propusieron crear una plataforma digital donde los jóvenes pudieran acceder a recursos educativos y colaborar entre sí.
+</p>
+<img src="https://d3t4nwcgmfrp9x.cloudfront.net/upload/mision-vision-profesional-empresas.jpg" class="imagen">
+
+            </div>
+            
+        </section>
+
+        <section id="page-our-mision">
+            <div style="text-align: center;" class="container">
+                <h2 class="heading">Nuestra misión</h2>
+                <p>Nuestra misión en este proyecto de cómputo es desarrollar soluciones tecnológicas innovadoras y eficientes que faciliten el manejo de la información, optimicen procesos y mejoren la experiencia del usuario, contribuyendo así al crecimiento y éxito de nuestros clientes o usuarios finales.</p>
+<img src="https://www.obsbusiness.school/sites/obsbusiness.school/files/inline-images/importancia-trabajo-en-equipo.jpg" class="imagen">
+            </div>
+            
+        </section>
+         
+        <section id="page-team">
+            <div style="text-align: center;" class="container">
+                <h2 class="heading">Equipo</h2>
+                <p>El equipo está compuesto por profesionales multidisciplinarios con habilidades en desarrollo, diseño, y gestión de proyectos de cómputo, comprometidos en colaborar de manera eficiente para alcanzar los objetivos propuestos y garantizar el éxito del proyecto.</p>
+<img src="https://www.asertempocolombia.com/wp-content/uploads/2020/09/Como-hacer-que-el-trabajo-en-equipo-sea-exitoso-en-cuarentena.jpg" class="imagen">
+            </div>
+            
+        </section>
+        
+
+    </div>
+
+
+    <script src="res/js/scripts.js"></script>
+
+    
+
+</body>
+
+</html>
