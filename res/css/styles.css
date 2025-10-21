@@ -8,6 +8,47 @@ body {
     font-family: 'Arial', sans-serif;
     line-height: 1.6;
 }
+.container {
+    text-align: center; 
+}
+
+
+.imagen {
+  
+    display: block; 
+    margin: 20px auto 40px auto; 
+    
+   
+    max-width: 90%;
+    height: auto;
+    width: 600px;
+    
+    border-radius: 8px; 
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); 
+    transition: transform 0.3s ease;
+}
+
+.imagen:hover {
+    transform: scale(1.02); 
+}
+.main-content {
+    padding-bottom: 50px;
+    background-color: #f9f9f9;
+}
+
+#page-about-us, #page-our-history, #page-our-vision, #page-our-mision, #page-team {
+    padding: 60px 0;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #eeeeee;
+}
+
+#page-our-history p, #page-our-vision p, #page-our-mision p, #page-team p {
+    max-width: 800px;
+    margin: 0 auto 30px auto;
+    line-height: 1.7;
+    color: #555555;
+    font-size: 1.1rem;
+}
 
 /*!
  * Bootstrap Grid v5.3.8 (https://getbootstrap.com/)
