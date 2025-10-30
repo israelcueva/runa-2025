@@ -6,6 +6,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Kablammo&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../res/css/styles.css">
   <style>
     body {
       margin: 0;
@@ -25,6 +26,81 @@
   <script type="module" src="https://cdn.jsdelivr.net/npm/@google/model-viewer/dist/model-viewer.min.js"></script>
 </head>
 <body>
+    <header class="header">
+        <div class="nav-container container">
+            <!-- Logo -->
+            <a href="../index.html" class="logo">
+                <img src="../res/images/brand/logo_primarycolor.svg" alt="RUNA" class="logo-icon">
+                <div>
+                    <div class="logo-text">RUNA</div>
+                    <div class="logo-subtitle">PROYECTO</div>
+                </div>
+            </a>
+
+            <!-- Navigation Menu (se mueve entre desktop y mobile) -->
+            <nav>
+                <ul class="nav-menu" id="navMenu">
+                    <li class="nav-item">
+                        <a href="../index.html" class="nav-link btn-inicio">INICIO</a>
+                    </li>
+
+                   <li class="nav-item">
+                        <a href="../acerca-de.html" class="nav-link btn-inicio">Acerca de</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="#" class="nav-link" id="projectsToggle">
+                            PROYECTOS
+                            <span class="dropdown-arrow"></span>
+                        </a>
+                        <!-- Dropdown Menu -->
+                        <ul class="dropdown-menu" id="dropdownMenu">
+                            <li class="dropdown-item">
+                                <a href="#" class="dropdown-link">El Konista</a>
+                            </li>
+                            <li class="dropdown-item">
+                                <a href="#" class="dropdown-link">Animatoks</a>
+                            </li>
+                            <li class="dropdown-item">
+                                <a href="#" class="dropdown-link">La web de Runa</a>
+                            </li>
+                            <li class="dropdown-item">
+                                <a href="#" class="dropdown-link">Runa: Aventuras</a>
+                            </li>
+                            <li class="dropdown-item">
+                                <a href="#" class="dropdown-link">Runa: Documentales</a>
+                            </li>
+                        </ul>
+                    </li>
+                  <!-- UTILITARIOS Dropdown Menu -->
+                   
+                <li class="nav-item">
+                        <a href="#" class="nav-link" id="projectsToggle">
+                            UTILITARIOS
+                            <span class="dropdown-arrow"></span>
+                        </a>
+                        <!-- Dropdown Menu -->
+                        <ul class="dropdown-menu" id="dropdownMenu">
+                            <li class="dropdown-item">
+                                <a href="mapa/mapa.html" class="dropdown-link">Mapa</a>
+                        </ul>
+                    </li>
+                     
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">CONTACTO</a>
+                    </li>
+                </ul>
+            </nav>
+
+
+            <!-- Mobile Menu Button -->
+            <button class="mobile-menu-btn" id="mobileMenuBtn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
   <model-viewer 
     src="map.glb"                
     alt="Modelo 3D"
@@ -39,4 +115,7 @@
   </model-viewer>
 </body>
 </html>
+
+
+
 
