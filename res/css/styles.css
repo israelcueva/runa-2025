@@ -12,8 +12,20 @@ body {
     text-align: center; 
 }
 
+.hero-header {
+    margin-top: 120px; 
+    padding: 7rem 0;
+    color: white;
+    background-size: cover;
+}
+
+.hero-header.bg-about-us {
+background-image: url(https://img.freepik.com/free-vector/abstract-colorful-shapes-background_361591-2848.jpg?semt=ais_hybrid&w=740&q=80);
+}   
 
 .imagen {
+
+
   
     display: block; 
     margin: 20px auto 40px auto; 
@@ -26,6 +38,16 @@ body {
     border-radius: 8px; 
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); 
     transition: transform 0.3s ease;
+}
+.col-12{
+    padding: 3rem;
+}
+.p{
+    font-size: 200px;
+}
+.section{
+    margin: 0;
+    padding: 5rem 0;
 }
 
 .imagen:hover {
@@ -5128,6 +5150,7 @@ body {
     right: 0;
     z-index: 1000;
     padding: 25px 0;
+    background-color: white;
 }
 
 .nav-container {
@@ -5696,7 +5719,7 @@ body {
 
 /* Content Styles */
 .main-content {
-    margin-top: 120px;
+    
     margin-left: auto;
     margin-right: auto;
 }
