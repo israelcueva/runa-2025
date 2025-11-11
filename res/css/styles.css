@@ -4,6 +4,12 @@
     box-sizing: border-box;
 }
 
+h1,h2,h3,h4,h5,h6{
+  font-family: "Acme", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
 body {
     font-family: 'Arial', sans-serif;
     line-height: 1.6;
@@ -14,14 +20,17 @@ body {
 
 .hero-header {
     margin-top: 120px; 
-    padding: 7rem 0;
+    padding: 12rem 0;
     color: white;
     background-size: cover;
 }
 
 .hero-header.bg-about-us {
-background-image: url(https://img.freepik.com/free-vector/abstract-colorful-shapes-background_361591-2848.jpg?semt=ais_hybrid&w=740&q=80);
-}   
+background:linear-gradient(
+           180deg, rgba(246, 124, 1, 0.13) 0%, #000000ea 100%
+        ),
+        url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiFEUn4VeVVsNAtGMiyItUhb9H-lzihf6sSRMiBP7Xnb49cks72O_RDuYONF0sI1YIBdqm350KCtX3kXbkd7X_SGVM10N5wyddqzvCEWdveyvPcbDbT1RHHpcbvRwwxskh_g9_eULxXhnzGPmAaMAD5p3X2mrz30Ydan62X4cPRfQOVFIiSgfq7RtXP/s1600/d22c0438a7743c9214ea256fb401171ef83b92f8.png');
+}     
 
 .imagen {
 
