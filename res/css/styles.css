@@ -10,8 +10,10 @@ h1,h2,h3,h4,h5,h6{
   font-style: normal;
 }
 
+    
+
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: "Open Sans", sans-serif;
     line-height: 1.6;
 }
 .container {
@@ -23,6 +25,7 @@ body {
     padding: 12rem 0;
     color: white;
     background-size: cover;
+
 }
 
 .hero-header.bg-about-us {
@@ -30,7 +33,7 @@ background:linear-gradient(
            180deg, rgba(246, 124, 1, 0.13) 0%, #000000ea 100%
         ),
         url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiFEUn4VeVVsNAtGMiyItUhb9H-lzihf6sSRMiBP7Xnb49cks72O_RDuYONF0sI1YIBdqm350KCtX3kXbkd7X_SGVM10N5wyddqzvCEWdveyvPcbDbT1RHHpcbvRwwxskh_g9_eULxXhnzGPmAaMAD5p3X2mrz30Ydan62X4cPRfQOVFIiSgfq7RtXP/s1600/d22c0438a7743c9214ea256fb401171ef83b92f8.png');
-}     
+}   
 
 .imagen {
 
