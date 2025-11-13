@@ -1,39 +1,76 @@
+:root {
+    --primary-color: #F67B01;
+    --secundary-color:#ff9800;
+    --background-color:#f5f5f5;
+    --text-color:#333333;
+}
+
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-h1,h2,h3,h4,h5,h6{
-  font-family: "Acme", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-}
-
-    
-
 body {
-    font-family: "Open Sans", sans-serif;
+    font-family: 'Arial', sans-serif;
     line-height: 1.6;
 }
-.container {
-    text-align: center; 
-}
+
+
+
 
 .hero-header {
     margin-top: 120px; 
-    padding: 12rem 0;
+    padding: 7rem 0;
     color: white;
     background-size: cover;
-
 }
 
 .hero-header.bg-about-us {
-background:linear-gradient(
-           180deg, rgba(246, 124, 1, 0.13) 0%, #000000ea 100%
-        ),
-        url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiFEUn4VeVVsNAtGMiyItUhb9H-lzihf6sSRMiBP7Xnb49cks72O_RDuYONF0sI1YIBdqm350KCtX3kXbkd7X_SGVM10N5wyddqzvCEWdveyvPcbDbT1RHHpcbvRwwxskh_g9_eULxXhnzGPmAaMAD5p3X2mrz30Ydan62X4cPRfQOVFIiSgfq7RtXP/s1600/d22c0438a7743c9214ea256fb401171ef83b92f8.png');
+background-image: url(https://img.freepik.com/free-vector/abstract-colorful-shapes-background_361591-2848.jpg?semt=ais_hybrid&w=740&q=80);
 }   
+
+footer{
+    background-color: black;
+    color: #555555;
+    margin: 0;
+    text-align: left;
+}
+
+footer .footer-logo{
+      width: 100px;
+      margin-bottom: 20px;
+}
+
+footer h3{
+    color: white;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+footer ul{
+    list-style: none;
+    padding: 0;
+    
+}
+
+footer li{
+    padding: 10px 0;
+}
+
+footer ul a{
+    color: #555555;
+    text-decoration: none;  
+}
+
+footer ul a:hover{
+    color: var(--primary-color);  
+}
+
+footer p{
+    margin: 10px 0;
+}
 
 .imagen {
 
@@ -66,7 +103,6 @@ background:linear-gradient(
     transform: scale(1.02); 
 }
 .main-content {
-    padding-bottom: 50px;
     background-color: #f9f9f9;
 }
 
@@ -5748,6 +5784,7 @@ background:linear-gradient(
 .hero h1 {
     font-size: 3rem;
     margin-bottom: 20px;
+    text-align: center;
 }
 
 .hero p {
